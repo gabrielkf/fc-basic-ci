@@ -14,7 +14,7 @@ func TestSoma(t *testing.T) {
 func TestMult(t *testing.T) {
 
 	actual := mult(3, 4)
-	expected := 10
+	expected := 12
 
 	if actual != expected {
 		t.Errorf("Expected %d, received %d", expected, actual)
